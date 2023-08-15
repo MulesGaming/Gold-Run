@@ -50,4 +50,10 @@ execute if block 23 -59 7 stone_button[powered=true] run function gold-run:start
 
 execute positioned 136 -53 6 if entity @p[limit=1,distance=..2.5] run function gold-run:end
 
+# Practice bossbar
+
+bossbar set practice_message players @a[tag=practice-mode]
+bossbar set practice_message visible true
+bossbar set practice_message value 1
+
 
