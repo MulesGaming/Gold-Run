@@ -29,3 +29,7 @@ setblock 23 -59 7 stone_button[facing=west]
 
 gamemode adventure @a
 
+# Double check tag 
+
+tag @a remove has_checkpoint
+
