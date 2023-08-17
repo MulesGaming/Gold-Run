@@ -4,7 +4,7 @@ tellraw @a ["","<",{"text":"Albert","bold":true,"color":"yellow"},"> ","Game ove
 
 # Tp
 
-tp @a 12 -60 8
+tp @a 18 -60 8
 
 # Remove tag
 
